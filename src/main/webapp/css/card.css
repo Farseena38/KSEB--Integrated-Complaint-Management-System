@@ -1,0 +1,33 @@
+@charset "UTF-8";
+
+h2,h3{
+	color: green;
+	margin-bottom: 15px;
+	text-align: center;
+}
+
+input[type="submit"]{
+	border:none;
+	height: 40px;
+	width: 100%;
+	background-color: seagreen;
+	color: white;
+	font-weight: bold;
+	
+}
+
+form{
+	border: solid 3px seagreen;
+	margin-bottom: 30px;
+}
+
+input[type="submit"]:hover{
+	cursor: pointer;
+	border:solid seagreen;
+	height: 40px;
+	background-color: white;
+	color: seagreen;
+	font-weight: bold;
+	
+}
+

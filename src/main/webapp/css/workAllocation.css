@@ -1,0 +1,46 @@
+@charset "UTF-8";
+
+form{
+	display: flex;
+	flex-direction: column;
+	}
+
+h3,h4{
+	text-align: center;
+	color: green;
+}
+select{
+	border: solid 2px seagreen;
+	border-radius: 10px;
+	height: 40px;
+	width: 350px;
+	padding-left: 20px;
+	margin: auto;
+	width:50%;
+	
+	
+}
+
+input[type="submit"]{
+
+	border:none;
+	height: 40px;
+	width: 350px;
+	background-color: seagreen;
+	color: white;
+	font-weight: bold;
+	margin: auto;
+	width:50%;
+}
+
+input[type="submit"]:hover{
+	cursor: pointer;
+	border:solid seagreen;
+	height: 40px;
+	width: 350px;
+	background-color: white;
+	color: seagreen;
+	font-weight: bold;
+	
+}
+
